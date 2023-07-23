@@ -1,0 +1,15 @@
+.PokeCard {
+  width: calc(
+    25% - 20px
+  ); /* Adjust the width to accommodate spacing between cards */
+  margin-bottom: 20px; /* Add some space between the cards */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.PokeCard-img {
+  width: auto;
+}
+.PokeCard-detail {
+  padding: 5px 16px;
+}
